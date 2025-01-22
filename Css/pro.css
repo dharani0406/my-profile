@@ -1,0 +1,111 @@
+.cont{
+    opacity: 0.2;
+}
+.cont:hover{
+    opacity: 1.0;
+}
+.container{
+    height: 420px;
+    width: 50%;
+    background-color: black;
+    background-blend-mode: multiply;
+    margin-left: 25%;
+    margin-top: 7%;
+    border-radius: 5px;
+}
+.im{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    opacity: 0.7;
+}
+.im:hover{
+    opacity: 1;
+}
+.name{
+    margin-left: 50%;
+    margin-top: -59%;
+    background: -webkit-linear-gradient(-85deg,rgb(255, 0, 0), rgb(255, 251, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container-small{
+    position: relative;
+    bottom: 0;
+    height: 115px;
+    width: 100%;
+    margin-top: -5.9%;
+    background: linear-gradient(-55deg,rgb(255, 91, 200) 20%, rgb(255, 165, 96)70%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: inherit;
+}
+.container-small{
+    clip-path: polygon(
+        0 100%,
+        0 0,
+        100% 100%
+    );
+}
+.hob{
+    margin-left: 50%;
+    margin-top: -2.7%;
+    color: #999;
+}
+.bio{
+    margin-left: 50%;
+    margin-top: -1%;
+    color: #10ffff;
+}
+.bio-details{
+    margin-left: 50%;
+    color: #999999;
+}
+.contact{
+    margin-left: 50%;
+    color: #10ffff;
+}
+.email{
+    margin-top: -0.7%;
+    margin-left: 50%;
+    color: #999999;
+}
+.location{
+    margin-left: 50%;
+    color: #10ffff;
+}
+.city{
+    margin-left: 50%;
+    color: #999999;
+}
+.fa{
+    padding: 10px;
+    font-size: 2px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+.fa:hover{
+    opacity: 0.8;
+}
+.fa-instagram {
+    background: linear-gradient(-55deg,rgb(201, 175, 30), rgb(238, 76, 76),rgb(247, 73, 232));
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github{
+    background-color: rgb(191, 52, 255);
+    color: white;
+}
+.mon{
+    width: 10%;
+    height: 10%;
+}
